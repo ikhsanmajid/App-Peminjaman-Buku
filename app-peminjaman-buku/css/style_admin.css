@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(182, 228, 186);
+    font: 16px sans-serif,arial;
+}
+
+header {
+    position: fixed;
+    background-color: rgb(6, 119, 49);
+    height: 65px;
+    width: 100%;
+    top: 0;
+    left: 0;
+   }
+
+header p {
+    padding-bottom: 15px;
+    font-size: 25px;
+    color: white;
+    line-height: 18px;
+    font-weight: bold;
+    float: left;
+    margin-left: 550px;
+    text-align: center;
+    
+}
+
+/* LOGIN & REGISTER */
+
+.menu>.menu-content{
+	width: 200px;
+	height: 65px;
+	float: right;
+	font-family: sans-serif,Arial;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: -0.05em;
+	position: relative;
+	color: white;
+	line-height: 65px;
+    background-color:  rgb(6, 119, 49);
+}
+.menu>.menu-content>a{
+	color: white;
+	text-decoration: none;
+}
+
+sidebar {
+    top: 65px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+sidebar a:hover:not(.active) {
+    background-color: rgb(22, 92, 26);
+    color: white;
+}
+
+.dropdown {
+    margin-top: -13px;
+    margin-left: -15px;
+    text-decoration: none;
+    list-style-type: none;
+   
+}
+
+div.content {
+    margin-top: 50px;
+    margin-left: 200px;
+    padding: 20px 20px;
+    height: 700px;
+    background-color: rgb(182, 228, 186);
+}
+
+
+footer {
+    color:white;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    left: 0;
+    padding: 0;
+    background-color: rgb(6, 119, 49);
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+}
+
